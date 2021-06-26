@@ -8,7 +8,9 @@ public class array {
         for (int i = 0; i < array.length; i++) {
             arr_rev[i] = array[array.length - (i + 1)];
         }
-        System.out.println(array[array.length - 1]);
-        System.out.println(arr_rev[arr_rev.length-1]);
+//      foreach loop in Java
+        for(int i : arr_rev) {
+            System.out.println(i);
+        }
     }
 }
